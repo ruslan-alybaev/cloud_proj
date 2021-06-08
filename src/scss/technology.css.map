@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA,WAAW;EACT,OAAO,EAAE,YAAY",
+"sources": ["technology.scss"],
+"names": [],
+"file": "technology.css"
+}

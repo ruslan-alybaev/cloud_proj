@@ -1,0 +1,130 @@
+/* line 1, style.scss */
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+/* line 15, style.scss */
+body { font-family: Lato, sans-serif; }
+
+/* line 19, style.scss */
+a { text-decoration: none; }
+
+/* line 1, header.scss */
+.header { position: absolute; width: 100%; top: 30px; color: #ffffff; }
+/* line 6, header.scss */
+.header__nav { display: flex; align-items: center; justify-content: space-between; text-transform: uppercase; }
+/* line 13, header.scss */
+.header__title { font-size: 18px; line-height: 22px; font-weight: normal; color: #ffffff; text-transform: uppercase; }
+/* line 19, header.scss */
+.header__menu { font-size: 14px; line-height: 17px; font-weight: normal; display: flex; list-style-type: none; column-gap: 30px; }
+/* line 25, header.scss */
+.header__link { cursor: pointer; }
+/* line 29, header.scss */
+.header__button { font-size: 14px; line-height: 17px; font-weight: normal; text-transform: uppercase; height: 40px; padding: 0 28px; border: 1px solid #ffffff; background-color: transparent; color: #ffffff; border-radius: 6px; cursor: pointer; transition: .6s; }
+/* line 40, header.scss */
+.header__button:hover { background-color: #ffffff; color: #ED4C5C; transition: .6s; }
+
+/* line 1, hero.scss */
+.hero { background: url("../images/hero/Bg.png") top left/100% 100% no-repeat; display: flex; justify-content: center; height: 100vh; align-items: center; }
+/* line 8, hero.scss */
+.hero__content { text-align: center; color: #ffffff; }
+/* line 11, hero.scss */
+.hero__content-title { font-size: 72px; line-height: 86px; font-weight: bold; letter-spacing: 0.05em; text-transform: uppercase; }
+/* line 16, hero.scss */
+.hero__content-description { font-size: 24px; line-height: 150%; font-weight: 500; margin: 25px 0; }
+/* line 20, hero.scss */
+.hero__content-button { font-size: 14px; line-height: 17px; font-weight: normal; text-transform: uppercase; padding: 16px 52px; border: 1px solid #ffffff; background-color: transparent; color: #ffffff; border-radius: 6px; cursor: pointer; transition: .6s; }
+/* line 30, hero.scss */
+.hero__content-button:hover { background-color: #ffffff; color: #ED4C5C; transition: .6s; }
+
+/* line 1, video.scss */
+.video { padding: 94px 0 95px; }
+/* line 4, video.scss */
+.video__content { display: flex; align-items: center; }
+/* line 10, video.scss */
+.video__item { position: relative; }
+/* line 14, video.scss */
+.video__title { font-size: 36px; line-height: 43px; font-weight: 600; }
+/* line 17, video.scss */
+.video__description { font-size: 14px; line-height: 140%; font-weight: normal; margin: 30px 0 20px; }
+/* line 21, video.scss */
+.video__link { font-size: 14px; line-height: 140%; font-weight: normal; color: #ED4C5C; }
+/* line 26, video.scss */
+.video__play { width: 66px; height: 66px; background-color: #ED4C5C; border-radius: 50%; display: flex; justify-content: center; align-items: center; position: absolute; top: 50%; transform: translate(-50%, -50%); }
+
+/* line 1, features.scss */
+.features { padding: 63px 0 180px; background-color: #FAFAFA; }
+/* line 4, features.scss */
+.features__title { font-size: 36px; line-height: 40px; font-weight: 500; text-align: center; margin-bottom: 63px; }
+/* line 9, features.scss */
+.features__item { text-align: center; position: relative; }
+/* line 14, features.scss */
+.features__content { width: 294px; height: 198px; background-color: #ffffff; box-shadow: 0 5px 30px rgba(0, 0, 0, 0.4); border-radius: 8px; text-align: center; padding: 33px 30px 25px; position: absolute; left: 50%; transform: translate(-50%, -46%); }
+/* line 25, features.scss */
+.features__content-title { font-size: 18px; line-height: 22px; font-weight: bold; }
+/* line 28, features.scss */
+.features__content-description { font-size: 12px; line-height: 150%; font-weight: normal; margin: 20px 0; }
+/* line 32, features.scss */
+.features__content-link { font-size: 12px; line-height: 150%; font-weight: normal; color: #ED4C5C; }
+
+/* line 1, technology.scss */
+.technology { padding: 63px 0 104px; }
+/* line 3, technology.scss */
+.technology__title { font-size: 36px; line-height: 43px; font-weight: 500; text-align: center; margin-bottom: 52px; }
+/* line 8, technology.scss */
+.technology__block { position: relative; margin-bottom: 13px; }
+/* line 12, technology.scss */
+.technology__subtitle { font-size: 100px; line-height: 120px; font-weight: bold; color: rgba(16, 16, 16, 0.08); text-align: center; }
+/* line 17, technology.scss */
+.technology__img { position: absolute; left: 50%; transform: translate(-50%, -90%); }
+/* line 22, technology.scss */
+.technology__content { text-align: center; }
+/* line 24, technology.scss */
+.technology__content-title { font-size: 18px; line-height: 22px; font-weight: bold; color: #101010; margin-bottom: 10px; }
+/* line 29, technology.scss */
+.technology__content-description { font-size: 12px; line-height: 14px; font-weight: normal; }
+
+/* line 1, slider.scss */
+.slider { padding: 94px 0 95px; background-color: #ED4C5C; color: #ffffff; }
+/* line 5, slider.scss */
+.slider__title { font-size: 36px; line-height: 43px; font-weight: 600; }
+/* line 8, slider.scss */
+.slider__description { font-size: 14px; line-height: 140%; font-weight: normal; margin: 30px 0 42px; }
+/* line 12, slider.scss */
+.slider__icon { color: #ffffff; font-size: 35px; margin-right: 25px; }
+
+/* line 1, contact.scss */
+.contact { padding: 117px 0 78px; }
+/* line 3, contact.scss */
+.contact__title { font-size: 36px; line-height: 43px; font-weight: 500; margin-bottom: 50px; }
+/* line 7, contact.scss */
+.contact__description { font-size: 14px; line-height: 140%; font-weight: normal; }
+/* line 12, contact.scss */
+.contact__form { width: 540px; }
+/* line 14, contact.scss */
+.contact__form-block { height: 60px; margin-bottom: 24px; }
+/* line 18, contact.scss */
+.contact__form-input-text { height: 100%; width: 255px; border-radius: 6px; padding: 0 31px; color: rgba(19, 39, 67, 0.5); font-size: 16px; line-height: 19px; font-weight: normal; }
+/* line 26, contact.scss */
+.contact__form-first-name { margin-right: 25px; }
+/* line 29, contact.scss */
+.contact__form-input-tel { height: 100%; width: 100%; border-radius: 6px; padding: 0 31px; color: rgba(19, 39, 67, 0.5); font-size: 16px; line-height: 19px; font-weight: normal; }
+/* line 37, contact.scss */
+.contact__form-select { height: 100%; width: 100%; border-radius: 6px; padding: 0 31px; color: rgba(19, 39, 67, 0.5); font-size: 16px; line-height: 19px; font-weight: normal; }
+/* line 45, contact.scss */
+.contact__form-button { font-size: 16px; line-height: 19px; font-weight: normal; padding: 17px 34px; background: #ED4C5C; border: none; border-radius: 6px; color: #FFFFFF; text-transform: uppercase; cursor: pointer; transition: .6s; }
+/* line 55, contact.scss */
+.contact__form-button:hover { background-color: rgba(254, 87, 101, 0.71); color: #FFFFFF; transition: .6s; }
+
+/* line 1, footer.scss */
+.footer { padding: 85px 0 86px; background-color: #FAFAFA; }
+/* line 4, footer.scss */
+.footer__content { color: #101010; }
+/* line 6, footer.scss */
+.footer__content-title { font-size: 18px; line-height: 22px; font-weight: normal; }
+/* line 9, footer.scss */
+.footer__content-description { font-size: 12px; line-height: 18px; font-weight: normal; margin: 33px 0; }
+/* line 13, footer.scss */
+.footer__content-copyright { margin-top: 141px; }
+/* line 17, footer.scss */
+.footer__icons { color: #101010; font-size: 20px; margin-right: 14px; }
+
+/*# sourceMappingURL=style.css.map */
